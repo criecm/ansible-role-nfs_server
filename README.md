@@ -25,6 +25,8 @@ Role Variables
   specify port for mountd
 * `nfsv4_only (False)`
   NFSv4 only server (FreeBSD 13+)
+* `nfsv4_root ("/")`
+  root for nfsv4 shares
 
 Dependencies
 ------------

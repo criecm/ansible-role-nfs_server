@@ -20,7 +20,7 @@
     dest: /etc/exports
     force: no
     content: |
-      V4: / -sec=sys
+      V4: {{ nfsv4_root }} -sec=sys
   tags: nfs,exports
   when: nfsv4_enable
 
